@@ -2,9 +2,11 @@
     background-color: #000000;
 }
 
-#headliner {
+#outer-wrap {
     background-image: url("../img/assets/header-bg.jpg");
+    width: 950px;
 }
+
 
 div .abovediv {
     position: relative;
@@ -12,9 +14,10 @@ div .abovediv {
     color: #ffffff;
 }
 
-
-div #sectiona {
-    margin: 20px;
+#desired-state img {
+    display: block;
+    width: 500px;
+    margin: auto;
 }
 
 div #state {
@@ -28,6 +31,7 @@ div #second {
     border-width: 5px;
     border-color: rgb(192,192,192) ;
     height: 500px;
+
     
 }
 #samsungs {
