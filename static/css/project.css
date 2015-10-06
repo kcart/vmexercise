@@ -30,13 +30,30 @@ div #second {
     border-width: 5px;
     border-color: rgb(192,192,192) ;
     height: 500px;
-
-    
 }
-#samsungs {
-    min-height: 100px;
-    max-height: 300px;
 
+.sectionb {
+  width: 500px;
+  margin: auto;
+}
+
+.samsung-wrap {
+  width: 200px;
+  float: left;
+}
+
+.samsung-wrap img {
+  width: 100%;
+}
+
+.phone-text {
+  float: right;
+  width: 250px;
+}
+
+.phone-text p {
+  color: white;
+  font-size: 10px;
 }
 /*
 blockquote:before { 
@@ -49,16 +66,35 @@ blockquote, block {
     display: inline-block;
 }
 
-#occulus {
-    min-height: 100px;
-    max-height: 200px;
+.occulus-image-wrap {
+  width: 250px;
+  float: right;
+}
+
+.occulus-image-wrap img {
+  width: 100%;
+}
+
+.occulus-text-wrap {
+  width: 250px;
+  float: left;
+  font-size: 10px;
 }
 
 div #third {
     background-image: url("../img/assets/footer-bg.jpg");
-    height: 500px;
+    height: 250px;
 }
 
 #footer {
     background-color: #000000;
+}
+
+p,
+h2 {
+ color: white;
+}
+
+h2 {
+  font-size: 14px;
 }
