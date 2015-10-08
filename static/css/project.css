@@ -14,10 +14,6 @@ div #abovediv {
 }
 
 
-div #state {
-    text-align: center;
-}
-
 
 div #second {
     background-image: url("../img/assets/body-bg.jpg");    
@@ -25,8 +21,14 @@ div #second {
     border-width: 5px;
     border-color: rgb(192,192,192) ;
     height: 500px;
+    position: relative;
 }
 
+#register {
+  position: absolute;
+  top: -20px;
+  right: 50%;
+}
 .sectionb {
   width: 500px;
   margin: auto;
