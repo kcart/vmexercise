@@ -63,13 +63,22 @@ blockquote, block {
   font-size: 10px;
 }
 
-hr {
-  size : 10px;
-}
 
-div #third {
+#bottom-third-section {
     background-image: url("../img/assets/footer-bg.jpg");
     height: 250px;
+}
+#cloud-explosion {
+  background-color: gray;
+  height: 20px;
+}
+
+#cloud-explosion img {
+  display: block;
+  position: relative;
+  margin: auto;
+  width: 10%;
+  top: -24px;
 }
 
 #footer {
