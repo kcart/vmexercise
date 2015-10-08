@@ -39,8 +39,7 @@ div #second {
 }
 
 #samsung-wrap img {
-  width: 70%;
-  float: right;
+  width: 90%;
 }
 
 .phone-text {
@@ -56,15 +55,11 @@ blockquote, block {
 }
 
 #occulus-image-wrap {
-  width: 250px;
-  float: right;
 }
 
 
 
 #occulus-text-wrap {
-  width: 250px;
-  float: left;
   font-size: 10px;
 }
 
