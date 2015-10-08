@@ -4,20 +4,15 @@
 
 #outer-wrap {
     background-image: url("../img/assets/header-bg.jpg");
-    width: 950px;
+    
 }
 
-div .abovediv {
+div #abovediv {
     position: relative;
     text-align: center;
     color: #ffffff;
 }
 
-#desired-state img {
-    display: block;
-    width: 500px;
-    margin: auto;
-}
 
 div #state {
     text-align: center;
@@ -37,7 +32,7 @@ div #second {
   margin: auto;
 }
 
-.samsung-wrap {
+#samsung-wrap {
   width: 200px;
   float: left;
 }
@@ -55,30 +50,26 @@ div #second {
   color: white;
   font-size: 10px;
 }
-/*
-blockquote:before { 
-    content: open-quote;
-    font-weight: bold;
-    font-size:30px;
-    color:#ffffff;
-}*/ 
+
 blockquote, block {
     display: inline-block;
 }
 
-.occulus-image-wrap {
+#occulus-image-wrap {
   width: 250px;
   float: right;
 }
 
-.occulus-image-wrap img {
-  width: 100%;
-}
 
-.occulus-text-wrap {
+
+#occulus-text-wrap {
   width: 250px;
   float: left;
   font-size: 10px;
+}
+
+hr {
+  size : 10px;
 }
 
 div #third {

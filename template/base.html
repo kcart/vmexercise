@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<!-- New -->
+
 <html lang="en">
   <head>
     <meta content="utf-8" http-equiv="encoding">
@@ -7,29 +7,29 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta content="text/html;charset=utf-8" http-equiv="Content-Type">
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css" rel="stylesheet">
+    
     <link href="../static/css/project.css" rel="stylesheet">
   </head>
   <body>
 
-    <!-- Creating the header with the VMTurbo icon...css change to black -->
     <div id="outer-wrap" class="container-fluid">
       <div class="row">
         <nav class="navbar-default">
         <div id="logo" class="container-fluid">
           <div class="navbar-header">
             <a class="navbar-brand" href="http://vmturbo.com/customers/customers-by-industry/">
-              <img alt="vmturbo-logo" src="../static/img/assets/vmturbo-logo.png">
+              <img alt="vmturbo-logo" class="img-responsive" src="../static/img/assets/vmturbo-logo.png">
             </a>
           </div>
         </div>
         </nav> 
       </div> 
 
-      <!-- Creating second row below the nav bar a div with two nested divs varying opacity with hr and text -->
+    
       <div id="top-section-wrap" class="row">
-        <p class="abovediv"> VMWORLD BARCELONA BOOTH 404</p>
+        <p id="abovediv"> VMWORLD BARCELONA BOOTH 404</p>
         <div id="desired-state" class="sectiona">
-          <img alt="header-background"
+          <img alt="header-background" class="img-responsive"
           src="../static/img/assets/desiredstate2-png-vr.png">
           <hr>
         </div>
@@ -39,8 +39,8 @@
 
       <div id="second" class="row">
         <div class="sectionb">
-          <div class="samsung-wrap">
-            <img alt="samsung image" src='../static/img/assets/samsung-galaxy-s6edge.png'>  
+          <div id="samsung-wrap">
+            <img alt="samsung image" class="img-responsive"src='../static/img/assets/samsung-galaxy-s6edge.png'>  
           </div>
 
           <div class="row">
@@ -53,19 +53,19 @@
           </div>
 
           <div class="row">
-            <div class="occulus-image-wrap">
-              <img alt="occulusimg" src="../static/img/assets/samsung-vr.png">
+            <div id="occulus-image-wrap">
+              <img alt="occulusimg" class="img-responsive" src="../static/img/assets/samsung-vr.png">
 
             </div>
-            <div class="occulus-text-wrap">
+            <div id="occulus-text-wrap">
               <h2> Lorem ipsum dolor sit amet. </h2>
-              <p class="samtext2">
+              <p id="samtext2">
               "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
               </p>
-            </div>  
+
+            </div> 
           </div>
-
-
+            <hr> 
         </div>
       </div>
 
@@ -75,7 +75,8 @@
       </div>
 
       <!-- Footer-->
-      <nav id="footer" class="navbar navbar-default navbar-fixed-bottom" 
+      <div class="row">
+      <nav id="footer" class="navbar navbar-default navbar-static-bottom" 
       role="navigation">
       <div class="container">
         <br>
@@ -84,7 +85,7 @@
       </div>
       </nav>
 
-
+    </div>
 
     </div>
     <script src="http://code.jquery.com/jquery.js"></script>
