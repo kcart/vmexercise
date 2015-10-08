@@ -17,8 +17,6 @@ div #abovediv {
 
 div #second {
     background-image: url("../img/assets/body-bg.jpg");    
-    height: 500px;
-    
 }
 
 #register {
@@ -34,22 +32,18 @@ div #second {
 }
 
 .sectionb {
-  width: 500px;
   margin: auto;
 }
 
 #samsung-wrap {
-  width: 200px;
-  float: left;
 }
 
-.samsung-wrap img {
-  width: 100%;
+#samsung-wrap img {
+  width: 70%;
+  float: right;
 }
 
 .phone-text {
-  float: right;
-  width: 250px;
 }
 
 .phone-text p {
