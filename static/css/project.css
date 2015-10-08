@@ -82,7 +82,8 @@ blockquote, block {
 }
 
 #footer {
-    background-color: #000000;
+    background-color: #ffffff;
+    color: black;
 }
 
 p,
